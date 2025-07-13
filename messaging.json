@@ -1,0 +1,53 @@
+{
+  "messages": [
+    {
+      "username": "Amy",
+      "sent": "07/12/2025",
+      "read": false,
+      "text": "This is the first message for Amy",
+      "id": 1
+    },
+    {
+      "username": "Cheryl",
+      "sent": "07/12/2025",
+      "read": false,
+      "text": "Hello Amy",
+      "id": 2
+    },
+    {
+      "username": "Dustin",
+      "sent": "07/12/2025",
+      "read": false,
+      "text": "Welcome to the chat",
+      "id": 3
+    },
+    {
+      "username": "Brenden",
+      "sent": "07/12/2025",
+      "read": false,
+      "text": "Glad you could make it!",
+      "id": 4
+    },
+    {
+      "username": "Amy",
+      "sent": "07/13/2025",
+      "read": false,
+      "text": "Amy Amy",
+      "id": 5
+    },
+    {
+      "username": "Dustin",
+      "sent": "07/13/2025",
+      "read": false,
+      "text": "Break your TypeScript code into separate files. Vite is a \"build tool\" that will compile them together.",
+      "id": 6
+    },
+    {
+      "username": "Dustin",
+      "sent": "07/13/2025",
+      "read": false,
+      "text": "post",
+      "id": 7
+    }
+  ]
+}

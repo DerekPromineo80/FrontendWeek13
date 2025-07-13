@@ -1,0 +1,79 @@
+
+/* Week 13 Assignment CSS, originally copied from Week 12 */
+
+/* Unique names were given to clases to avoid confusion */
+
+.athena {
+    background-color: rgb(207, 207, 207);
+}
+
+.artemis {
+    background-color: rgb(207,171,207);
+}
+
+.blanca {
+    background-color: rgb(252,252,252);
+}
+
+.hermes {
+    background-color: rgb(72,72,72);
+}
+
+.manitoba{
+    border-radius: 3px;
+    font-size: 9px;
+    padding: 8px 16px;
+    background-color: rgb(117,117,126);
+    color: rgb(252,252,252);
+    border: 2px solid rgb(81,81,81);
+    align-self: center;
+}
+
+.edinburgh{
+    border-radius: 3px;
+    font-size: 9px;
+    padding: 8px 16px;
+    background-color: rgb(54, 180, 27);
+    color: rgb(252,252,252);
+    border: 2px solid rgb(81,81,81);
+    align-self: center;
+}
+
+
+.edinburgh:hover {
+    background-color: rgb(207, 153, 18);
+    color: rgb(18,18,18);
+}
+
+
+.saskatchewan {
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px 28px;
+    background-color: rgb(99,189,99);
+    color: rgb(0,0,0);
+    border: 2px solid rgb(81,81,81);
+}
+
+button:hover {
+    background-color: rgb(252,252,252);
+    color: rgb(18,18,18);
+}
+
+
+div {
+    border-style: solid;
+    padding: 1rem 1rem;
+}
+
+textarea {
+    width: 33%;
+    height: 90px;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    border: 2px solid rgb(36,36,36);
+    border-radius: 4px;
+    background-color: rgb(243,243,243);
+    font-size: 16px;
+    color: rgb(18,18,18);
+}

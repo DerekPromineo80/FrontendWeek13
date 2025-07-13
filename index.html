@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <!-- 
+  Week 13 Project by Derek McGuire 
+  Notice that there are no link tags above to use the CSS and Bootstrap,
+  because Vite builds that in using imports,
+  and in this case these imports are in the "main.ts" file. 
+  -->
+  <body class="athena">
+    <div class="container hermes">
+        <div class="artemis">
+            <h1>Week 13 Assignment</h1>
+        </div>
+
+        <!-- The ID for "messages-list" is the container used to 
+         house all the messages that will output on the page -->
+        <div class="blanca" id="messages-list"></div>
+
+        <div class="artemis">
+            <h3>Enter Your Message Here:</h3>
+            <!-- The ID for "new-message-text" is the area where you type messages 
+             The TypeScript code will add the user, and the date, to the message. -->
+            <textarea id="new-message-text"></textarea>
+        </div>
+
+        <div class="blanca">
+            <button class="saskatchewan" id="save-button-amy">Amy Save</button>
+            <!-- <button class="saskatchewan" onclick="handleSend()">User 1 Post</button> -->
+            <button class="saskatchewan" id="save-button-brenden">Brenden Save</button>
+            <!-- <button class="saskatchewan" onclick="handleSendTwo()">User 2 Post</button> -->
+            <button class="saskatchewan" id="save-button-cheryl">Cheryl Save</button>
+            <!-- <button class="saskatchewan" onclick="handleSendThree()">User 3 Post</button> -->
+            <button class="saskatchewan" id="save-button-dustin">Dustin Save</button>
+            <!-- <button class="saskatchewan" onclick="handleSendFour()">User 4 Post</button> -->
+        </div>
+    </div>
+    <!-- This calls the TypeScript file -->
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
